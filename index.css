@@ -1,0 +1,488 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+div.başlık{
+    text-align: center;
+    color: #e74c3c;
+    font-size: 30px;
+    background-color: black;
+}
+
+body {
+    font-family: 'dosis', cursive;
+}
+h1{
+    font-family: 'Bungee',cursive;
+}
+h2,h3{
+    font-family: 'yanone kaffeesatz' cursive;
+}
+a {
+    text-decoration: none;
+}
+
+/* ***Header Başlangıç*** */
+
+header#mainheader {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background: url(../restoran/resimler/bb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+header#contentHeader {
+    width: 100%;
+    height: 400px;
+    position: relative
+    
+
+}
+
+div#headerContainer {
+    width: 940px;
+    height: 750px;
+    margin: auto;
+}
+div#contentHeaderContainer {
+    width: 940px;
+    height: 750px;
+    margin: auto;
+    position: relative;
+    float: left;
+}
+
+div#headerTop {
+    width: 940;
+    height: 50px;
+    position: relative;
+    display: inline;
+    color: #e74c3c;
+    text-decoration: none;
+    
+    
+}
+div#headerTop li{
+    display: inline-block;
+    color: #e74c3c;
+}
+
+
+ul#Topleft {
+    list-style-type: none;
+
+}
+
+ul#ulTopleft li {
+    display: inline-block;
+    line-height: 50px;
+    border-right: 1px solid red;
+    padding: 10px;
+    list-style: none;
+}
+ul#ulTopleft li:first-child {
+    padding-left: 0px;
+}
+ul#ulTopleft li:last-child {
+    border-right: 0;
+}
+
+ul#ulTopleft li a {
+    text-decoration: none;
+    color: beige;
+    display: inline;
+}
+
+
+ul#ulTopleft li a {
+    text-decoration: none;
+    color: red;
+}
+
+div#ulTopLeft li a:hover {
+    color: chartreuse;
+}
+ div#topRight {
+     height: 50px;
+     position: relative;
+     float: right;
+ }
+
+ div.topContactLogo {
+     width: 30px;
+     height: 30px;
+     margin-top: 10px;
+     float: left;
+     margin-left: 20px;
+ }
+
+ div.topContactText {
+     height: 50px;
+     line-height: 50px;
+     float: left;
+     margin-left: 20px;
+     color: beige;
+ }
+
+ /* *** Nav Başlangıç *** */
+ nav {
+     width: 100px;
+     height: 80px;
+     position: absolute;
+     background: rgba(0,0,0,0,.5);
+     top: 50px;
+ }
+
+ div#navContainer {
+     width: 940px;
+     height: 80px;
+     position: relative;
+     margin: auto;
+ }
+
+ div#navLogo {
+     font-family: 'Bungee', cursive;
+     color: black;
+     font-size: 30px;
+     line-height: 80px;
+     display: inline;
+     float: left;
+     }
+
+     div#başlık h1 {
+         margin-top: 20px;
+         margin: left auto;
+         margin-right: auto;
+         width: 50em;
+         color: red;
+         font-size: 30px;
+         text-align: center;
+         
+     }
+
+     div#altbaşlık {
+         margin-top: 10px;
+         color: black;
+         font-family: sans-serif;
+         margin-left: auto;
+         width: 50em;
+         margin-top: 40px;
+         
+     }
+
+    div#headerButtons{
+        margin-top: 20px;
+    }
+     
+    div#headerButtons a {
+        line-height: 60px;
+        border: 1px solid black;
+        display: inline-block;
+        color: azure;
+        padding: 0 20px;
+        transition: all .2s ease-in-out;
+        text-shadow: 1px 1px 1px #000000;
+    }
+    div#headerButtons a:first-child:hover {
+        background: orange;
+    }
+
+    div#headerButtons a:last-child {
+        margin-left: 20px;
+        background:orange ;
+    }
+    div#headerButtons a:last-child:hover {
+        background: transparent;
+    }
+
+    /* ***Section Başlangıcı *** */
+
+    /* ***  Birinci Section *** */
+     section.limitedSec {
+         width: 2000px;
+         position: relative;
+         margin: auto;
+         margin-top: 50px; 
+     }
+
+     section.limitedSec h1, section.limitedSec h2 {
+         text-align: center;
+     }
+
+     section.limitedSec img {
+         width: 663px;
+         margin-top: 50px;
+         border: 1px solid #000000;
+         padding: 10px;
+         box-sizing: border-box;
+         float: left;
+     }
+
+     section.limitedSec article {
+         width: 643px;
+         float:left;
+         margin-top: 50px;
+         margin-left: 150px;
+     }
+
+     section.limitedSec article  div.iconBox {
+         width: 100px;
+         height: 100px;
+         margin: auto;
+         float: left;
+         margin-right: 10px;
+     }
+
+     section.limitedSec article p {
+         margin-top: 20px;
+         text-align: justify;
+     }
+
+     /* *** ikinci Section *** */
+     section.unlimitedSec  {
+         width: 100%;
+         position: relative;
+         background: beige;
+         margin-top: 50px;
+     }
+
+     section.unlimitedSec div#menuContainer {
+         width: 1346px;
+         height: 640px;
+         position: relative;
+         margin: auto;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         flex-wrap: wrap;
+         align-content: center;
+         margin-top: 30px;
+     }
+
+   section.unlimitedSec div#menuContainer img {
+       width: 235px;
+       height: 235px;
+       opacity: 0.5;
+       transition: all .2s ease-in-out;
+       margin-top: 70px;
+   }
+   section.unlimitedSec div#menuContainer img:hover {
+       opacity: 1;
+       transform: scale(1.01);
+   }
+
+   section.unlimitedSec div#menuContainer div#menuLinkContainer {
+       width: 900px;
+       height: 300px;
+       position: absolute;
+       border: 1px solid black;
+       margin-top: 170px;
+       text-align: center;
+   }
+
+   section.unlimitedSec div#menuContainer div#menuLinkContainer h1 {
+     color: black;
+     line-height: 60px;
+     margin-top: 90px;
+   }
+   section.unlimitedSec div#menuContainer div#menuLinkContainer a {
+      width: 240px;
+      height: 60px;
+      border: 1px solid blue;
+      display: inline-block;color: blue;
+      line-height: 60px;
+      font-size: 20px;
+      transition: all .2s;
+
+   } 
+
+   section.unlimitedSec div#menuContainer div#menuLinkContainer a:hover{
+       background: #e74c3c;
+   }
+
+   /* ***üçüncü Section *** */
+   section.unlimitedSec div.unlimitedSecContainer {
+       width: 940px;
+       height: 640px;
+       position: relative;
+       margin: auto;
+   }
+   section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+       width: 673px;
+       height: 650px;
+       position: relative;
+       background: rgba(0,0,0,0,.5);
+       float: left;
+       color: aliceblue;
+       text-align: center;
+       text-shadow: 1px 1px 1px #000000;
+   }
+   
+   section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h1{
+       font-size: 40px;
+       line-height: 80px;
+       margin-top: 130px;
+   }
+   section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2{
+       font-size: 40px;
+       line-height: 60px;
+   }
+
+section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p{
+    width: 500px;
+    font-size: 10px;
+    line-height: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+section.contentContainer {
+    width: 1346px;
+    position: relative;
+    margin: 50px auto;
+}
+/* ***Hakımızda Başlangıç *** */
+section.contentContainer h1,section.contentContainer h2{
+    text-align: center;
+}
+section.contentContainer p {
+    margin: 20px 0;
+    line-height: 25px;
+}
+section.contentContainer  div.managerBox {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+
+    margin-bottom: 20px;
+}
+
+/* ***İletişim Başlangıç *** */
+section.contentContainer div.contactParts {
+    width: 640px;
+    position: relative;
+    float: left;
+    margin-left: 22px;
+}
+section.contentContainer div.contactParts h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+section.contentContainer div.contactParts input.input {
+    width: 310px;
+    height: 30px;
+    position: relative;
+    border: 1px solid #95a595;
+    box-sizing: border-box;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+section.contentContainer div.contactParts input.inputLeft {
+    float: left;
+}
+section.contentContainer div.contactParts input.inputRight {
+    float: right;
+}
+section.contentContainer div.contactParts textarea {
+    width: 640px;
+    height: 320px;
+    position: relative;
+    border: 1px solid #95a595;
+    box-sizing: border-box;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    resize: none;
+    border-radius: 10px;
+}
+section.contentContainer div.contactParts input.submit {
+    width: 310px;
+    height: 30px;
+    position: relative;
+    border: 1px solid #95a595;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background: transparent;
+    margin-left: 165px;
+    transition: all .2s ease;
+    border-radius: 10px;
+}
+section.contentContainer div.contactParts input.submit:hover {
+    cursor: pointer;
+    background: #e74c3c;
+    color: aliceblue;
+    border: 1px solid #e74c3c;
+}
+
+
+/* *** Footer Başlangıç *** */
+footer {
+    width: 100%;
+    height: 500px;
+    background: url(../restoran/resimler/footer2.jpg);
+    padding-top: 100px;
+}
+
+footer div#footerContainer {
+    width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+footer div#footerContainer div.footerBox {
+    width: 400px;
+    position: relative;
+    float: left;
+    text-align: center;
+    color:beige;
+}
+
+footer div#footerContainer div.footerBox h1{
+    font-family: serif;
+    font-size: 30px;
+    margin-top: 55px;
+}
+
+footer div#footerContainer div.footerBox h2 {
+    font-size: 30px;
+    line-height: 60px;
+    border-bottom: #e74c3c;
+    
+}
+
+footer div#footerContainer div.footerBox p {
+    text-align: left;
+    line-height: 30px;
+    width: 300px;
+    margin:auto;
+}
+footer div#footerContainer div.footerBox input {
+    width: 350px;
+    height: 40px;
+    margin-top: 15px;
+}
+     
+         
+ 
+
+
+    
+     
+
+
+
+
+     
+
+ 
+ 
+
+
+
